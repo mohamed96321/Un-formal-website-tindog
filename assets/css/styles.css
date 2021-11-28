@@ -15,12 +15,12 @@
 }
 
 .class-hr {
-  width: 70%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#features, #pricing, #explore, .carousel-item {
+#features, #explore, .carousel-item {
   padding: 7% 15%;
 }
 
@@ -154,6 +154,10 @@
 
 /* Pricing Section */
 
+#pricing {
+  padding: 7% 12%;
+}
+
 #pricing .price-h {
   padding-top: 0.5rem;
 }
@@ -163,7 +167,7 @@
 }
 
 #pricing .pricing-row {
-  padding: 2% 3%;
+  padding: 2% 2%;
 }
 
 /* Explore Section */
