@@ -2,6 +2,7 @@
 
 .class-p, .class-span {
   color: #8F8F8F;
+  font-family: "Ubuntu-light", sans-serif;
 }
 
 .class-h {
@@ -26,6 +27,10 @@
 
 .title-row .class-h, .title-img {
   padding-top: 3.5rem;
+}
+
+.nav-link, .social-media a {
+  margin: 0 18px;
 }
 
 #features .feature-box, #testimonials, #press, #pricing, #explore, #footer {
@@ -54,7 +59,7 @@
 
   #title .title-img {
     position: static;
-    width: 400px;;
+    width: 360px;;
     transform: rotate(25deg);
     margin-top: 20px;
   }
@@ -67,23 +72,22 @@
 }
 
 #title .container-fluid {
-  padding: 3% 12% 5%;
-  background-color: #dc3545;
+  padding: 3% 12%;
 }
 
 .collapse .nav-item {
   font-size: 1rem;
 }
 
-.nav-link {
-  margin: 0 18px;
-}
-
-.container-fluid {
-  padding-bottom: 5%;
-}
-
 /* Title Section */
+
+#title {
+  background-color: #dc3545;
+}
+
+#title .row {
+  padding: 0 12% 4%;
+}
 
 #title h1 {
   font-size: 3.5rem;
@@ -144,7 +148,7 @@
 /* Press Section */
 
 #press {
-  padding: 0 15% 7%;
+  padding: 0 7% 7%;
 }
 
 .press-img {
@@ -170,19 +174,19 @@
   padding: 2% 2%;
 }
 
+#pricing .pricing-p {
+  color: #000;
+}
+
 /* Explore Section */
 
 #explore .btn {
-  width: 230px;
+  width: 260px;
   margin: 3% 0;
   height: 50px;
 }
 
 /* Footer Section */
-
-.social-media a{
-  margin: 0 12px;
-}
 
 .social-media {
   padding: 2% 3%;
